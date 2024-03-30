@@ -1,0 +1,55 @@
+/* Import a fancy font for menu headings */
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.menu {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Italiana", serif;
+  color: #8b0000;
+  margin-bottom: 30px;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: "Italiana", serif;
+  color: #8b0000;
+  font-size: 24px;
+  border-bottom: 2px solid #8b0000;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item {
+  font-weight: bold;
+}
+
+.price {
+  color: #8b0000;
+}
